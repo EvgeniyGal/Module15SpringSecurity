@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-public class Module14SpringDataApplication {
+public class Module15SpringSecurityApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(Module14SpringDataApplication.class, args);
+        ConfigurableApplicationContext context = SpringApplication.run(Module15SpringSecurityApplication.class, args);
     }
 
 }
