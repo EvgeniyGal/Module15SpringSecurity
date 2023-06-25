@@ -11,10 +11,3 @@ create table authorities (
 );
 create unique index ix_auth_username on authorities (username,authority);
 
-INSERT INTO users (username, password, enabled)
-VALUES
-  ('user', 'default', 1);
-
-INSERT INTO authorities (username,authority)
-VALUES
-  ('user', 'USER');
